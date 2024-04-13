@@ -1,6 +1,7 @@
 body {
   background-color: #1c1c1c;
 }
+/* page one */
 .divConte {
   height: 100vh;
   background-color: #f4cf48;
@@ -280,7 +281,4 @@ textarea:focus {
   background-color: #ff2020;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
 }
