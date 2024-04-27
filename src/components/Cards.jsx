@@ -9,17 +9,13 @@ function Cards() {
           <a href="https://configuration-d8.netlify.app/" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
-              <img src={require("../img/folder.png")} alt="" />
+              {/* <img src={require("../img/folder.png")} alt="" /> */}
             </div>
-            <h1>Name the project</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-              recusandae!
-            </p>
+            <h1>calculator</h1>
+            <p>Initial design for an electronic calculator</p>
             <div className="language">
               <h5>html5</h5>
               <h5>css</h5>
-              <h5>react js</h5>
             </div>
           </a>
         </div>
@@ -29,7 +25,7 @@ function Cards() {
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
             </div>
-            <h1>Name the project</h1>
+            <h1>Buy a bike</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
               recusandae!
@@ -42,7 +38,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="" target="_blank">
+          <a href="https://add-card-d8.netlify.app/" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -60,7 +56,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="" target="_blank">
+          <a href="https://todo-list-d8.netlify.app/" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
