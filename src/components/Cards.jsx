@@ -6,7 +6,7 @@ function Cards() {
       <h1 id="text-work">03.my work</h1>
       <div className="cards">
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="https://configuration-d8.netlify.app/" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -24,7 +24,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="https://shoping-bike.netlify.app/" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -42,7 +42,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -60,7 +60,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -78,7 +78,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />
@@ -96,7 +96,7 @@ function Cards() {
           </a>
         </div>
         <div className="card">
-          <a href="https://www.youtube.com/watch?v=Wr_wQZOjZl8" target="_blank">
+          <a href="" target="_blank">
             <div className="icon">
               <img src={require("../img/folder.png")} />
               <img src={require("../img/folder.png")} alt="" />

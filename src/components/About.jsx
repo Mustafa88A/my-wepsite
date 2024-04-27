@@ -17,9 +17,8 @@ function About() {
         <div className="SectionAbout">
           <div>
             <p className="md:w-8/12">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              iusto, voluptates veritatis similique, voluptas possimus, maiores
-              deserunt aspernatur corrupti nisi a et voluptatibus omnis quos.
+              Hello, I am Mustafa I am a web developer excited, I live in Iraq,
+              born in 2000, and hold a bachelor’s degree in computer technology.
             </p>
           </div>
         </div>
