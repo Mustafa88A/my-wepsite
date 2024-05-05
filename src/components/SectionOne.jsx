@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 function SectionOne() {
   return (
-    <div id="container" className="divConte">
+    <div id="container" className="bg-[#f4cf48] h-[100vh]">
       <Navbar />
 
       <div className="texts md:w-1/2">

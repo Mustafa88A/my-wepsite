@@ -4,7 +4,7 @@ const larger_card =
 const medium_card =
   "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[20%] text-4xl md:rounded-3xl md:h-24";
 const small_card =
-  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[15%] text-4xl md:rounded-3xl md:h-24";
+  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[15%] text-4xl md:rounded-3xl md:h-24 ";
 const p = "hidden md:block";
 function Skills() {
   return (

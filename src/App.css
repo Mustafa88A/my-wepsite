@@ -2,19 +2,6 @@ body {
   background-color: #1c1c1c;
 }
 /* page one */
-.divConte {
-  height: 100vh;
-  background-color: #f4cf48;
-  color: black;
-}
-#hadar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar {
-  width: 30%;
-}
 
 .navbar-links {
   width: 100%;
@@ -138,11 +125,10 @@ body {
 } */
 
 .img-skills {
-  /* width: 100px; */
   height: 70px;
 }
 /* style card page */
-.hader {
+/* .hader {
   background-color: white;
   height: 100vh;
   width: 100%;
@@ -166,41 +152,23 @@ body {
   width: 30%;
   height: 14rem;
   padding: 15px;
-  /* font-size: 18px; */
   text-align: start;
   transition: all 0.4s ease-in;
   box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
 }
-.card:hover {
+
+
+*/
+
+#card {
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+}
+#card:hover {
   transform: translateY(-1rem);
   border: #1f4c65 2px solid;
   border-radius: 2.5rem 0 2.5rem 0;
 }
-.card a {
-  display: flex;
-  gap: 15px;
-  flex-direction: column;
-  text-decoration: none;
-  color: black;
-}
-
-#text-work {
-  font-size: 3rem;
-}
-.icon {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
-.icon img {
-  width: 25px;
-}
-.language {
-  width: 150px;
-  display: flex;
-  justify-content: space-between;
-}
-
 /* style contact page  */
 
 .head-contact {
@@ -213,14 +181,14 @@ body {
   height: 90%;
 }
 
-.text-contact {
+/* .text-contact {
   font-size: 30px;
   width: 30rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: center;
-}
+} */
 .text-input {
   display: flex;
   justify-content: space-between;
@@ -274,10 +242,4 @@ textarea:focus {
   background: rgb(2, 29, 78);
   background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, #febf00 60%);
   color: rgb(4, 4, 38);
-}
-.mylink {
-  width: 50px;
-  background-color: #ff2020;
-  display: flex;
-  flex-direction: column;
 }

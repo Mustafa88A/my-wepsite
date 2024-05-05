@@ -1,13 +1,13 @@
 import { HashLink as Link } from "react-router-hash-link";
 function Navbar() {
   return (
-    <div id="hadar">
+    <div className="bg-[#f4cf48] text-black flex justify-between ">
       <img
         className="imge-nav"
         src="https://cdn-icons-png.flaticon.com/128/2412/2412869.png"
         alt=""
       />
-      <nav className="navbar md:text-sm md:flex-col">
+      <nav className="w-[50%] md:w-[30%] md:text-sm  ">
         <ul className="navbar-links">
           <li>
             <Link to="#About" smooth>
