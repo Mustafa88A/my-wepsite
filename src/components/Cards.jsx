@@ -2,7 +2,7 @@ import React from "react";
 const language =
   "md:w-auto  hidden md:block md:flex md:justify-between flex-wrap md:item-center";
 const styleCard =
-  "w-40 h-56 text-xs  md:w-[25%] md:h-[40%] p-4  w-48 border-2 border-[#1f4c65] bg-[#f4cf48]  ";
+  "w-40 h-56 text-xs md:text-[18px] md:w-[25%] md:h-[40%] p-4  w-48 border-2 border-[#1f4c65] bg-[#f4cf48]  ";
 function Cards() {
   return (
     <div
