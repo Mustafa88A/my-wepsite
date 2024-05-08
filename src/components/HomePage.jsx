@@ -3,7 +3,6 @@ import Cards from "./Cards";
 import SectionOne from "./SectionOne";
 import Skills from "./Skills";
 import Contact from "./Contact";
-// import Navbar from "./Navbar";
 
 function HomePage() {
   return (
