@@ -1,21 +1,27 @@
 import React from "react";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+
 const language =
-  "md:w-auto  hidden md:block md:flex md:justify-between flex-wrap md:item-center";
+  "md:w-52  hidden md:block md:flex md:justify-between flex-wrap md:item-center dark:text-black ";
 const styleCard =
-  "w-40 h-56 text-xs md:text-[18px] md:w-[25%] md:h-[40%] p-4  w-48 border-2 border-[#1f4c65] bg-[#f4cf48]  ";
+  "w-32 h-48 text-xs md:text-[18px] md:w-[25%] md:h-[41%] p-2   border-2 border-[#1f4c65] bg-[#f4cf48] dark:text-black dark:border-white pt-8 ";
 function Cards() {
   return (
     <div
       id="Cards"
-      className="bg-white   h-[100vh]  md:w-100% flex flex-col items-center  "
+      className="bg-white   h-[100vh]  md:w-100% flex flex-col gap-10 items-center  dark:bg-[#0a192f] dark:border-b-2 dark:border-primary"
     >
-      <h1 className="text-2xl md:text-4xl h-24 flex items-center ">
+      <h1 className="text-2xl md:text-4xl h-16   flex items-center dark:text-primary pt-14">
         03.my work
       </h1>
-      <div className="md:w-[90%] md:h-[80%] flex gap-5  flex-wrap  justify-center items-center ">
+      <div className=" md:w-[90%]  h-[80%] flex gap-4    flex-wrap  justify-center items-center ">
         <div id="card" className={styleCard}>
           <a
-            className="flex  flex-col gap-5"
+            className="flex  flex-col  gap-2 md:gap-6"
             href="https://configuration-d8.netlify.app/"
             target="_blank"
           >
@@ -26,14 +32,14 @@ function Cards() {
             <h1>calculator</h1>
             <p>Initial design for an electronic calculator</p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>css</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <FaCss3Alt className="w-7 h-7" />
             </div>
           </a>
         </div>
         <div id="card" className={styleCard}>
           <a
-            className="flex  flex-col gap-5"
+            className="flex  flex-col  gap-2 md:gap-6"
             href="https://shoping-bike.netlify.app/"
             target="_blank"
           >
@@ -44,14 +50,14 @@ function Cards() {
             <h1>Buy a bike</h1>
             <p>A website dedicated to buying bicycles</p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>css</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <FaCss3Alt className="w-7 h-7" />
             </div>
           </a>
         </div>
         <div id="card" className={styleCard}>
           <a
-            className="flex  flex-col gap-5"
+            className="flex  flex-col  gap-2 md:gap-6"
             href="https://add-card-d8.netlify.app/"
             target="_blank"
           >
@@ -65,16 +71,16 @@ function Cards() {
               a previous employee
             </p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>tailwind</h5>
-              <h5>javascript</h5>
-              <h5>react js</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <RiTailwindCssFill className="w-7 h-7" />
+              <TbBrandJavascript className="w-7 h-7" />
+              <FaReact className="w-7 h-7" />
             </div>
           </a>
         </div>
         <div id="card" className={styleCard}>
           <a
-            className="flex  flex-col gap-5"
+            className="flex  flex-col  gap-2 md:gap-6"
             href="https://todo-list-d8.netlify.app/"
             target="_blank"
           >
@@ -88,15 +94,15 @@ function Cards() {
               of them
             </p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>javascript</h5>
-              <h5>react js</h5>
-              <h5>tailwind</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <RiTailwindCssFill className="w-7 h-7" />
+              <TbBrandJavascript className="w-7 h-7" />
+              <FaReact className="w-7 h-7" />
             </div>
           </a>
         </div>
         <div id="card" className={styleCard}>
-          <a className="flex  flex-col gap-5" href="" target="_blank">
+          <a className="flex  flex-col  gap-2 md:gap-6" href="" target="_blank">
             <div className="icon">
               <img className="w-6" src={require("../img/folder.png")} />
               {/* <img src={require("../img/folder.png")} alt="" /> */}
@@ -107,14 +113,15 @@ function Cards() {
               recusandae!
             </p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>css</h5>
-              <h5>react js</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <RiTailwindCssFill className="w-7 h-7" />
+              <TbBrandJavascript className="w-7 h-7" />
+              <FaReact />
             </div>
           </a>
         </div>
         <div id="card" className={styleCard}>
-          <a className="flex  flex-col gap-5" href="" target="_blank">
+          <a className="flex  flex-col  gap-2 md:gap-6" href="" target="_blank">
             <div className="icon">
               <img className="w-6" src={require("../img/folder.png")} />
               {/* <img src={require("../img/folder.png")} alt="" /> */}
@@ -125,9 +132,10 @@ function Cards() {
               recusandae!
             </p>
             <div className={language}>
-              <h5>html5</h5>
-              <h5>css</h5>
-              <h5>react js</h5>
+              <FaHtml5 className="w-7 h-7" />
+              <RiTailwindCssFill className="w-7 h-7" />
+              <TbBrandJavascript className="w-7 h-7" />
+              <FaReact className="w-7 h-7" />
             </div>
           </a>
         </div>

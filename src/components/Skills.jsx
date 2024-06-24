@@ -1,20 +1,23 @@
 import React from "react";
 const larger_card =
-  "flex justify-around items-center md:border-2 md:border-black w-[25%] text-4xl md:rounded-3xl md:h-24";
+  "flex justify-around items-center md:border-2 md:border-black w-[25%] text-4xl md:rounded-3xl md:h-24 dark:text-white dark:border-primary";
 const medium_card =
-  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[20%] text-4xl md:rounded-3xl md:h-24";
+  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[20%] text-4xl md:rounded-3xl md:h-24 dark:text-white dark:border-primary";
 const small_card =
-  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[15%] text-4xl md:rounded-3xl md:h-24 ";
+  "flex justify-around items-center md:border md:border-black md:border-2 md:border-black w-[15%] text-4xl md:rounded-3xl md:h-24 dark:text-white dark:border-primary";
 const p = "hidden md:block";
 function Skills() {
   return (
     //الرئيسي
-    <div id="Skills" className="h-[100vh] bg-[#f4cf48] gap-11 flex flex-col ">
-      <p className="flex items-center justify-center h-[20%]  text-5xl">
+    <div
+      id="Skills"
+      className="h-[100vh] bg-[#f4cf48] gap-11 flex flex-col md:items-center dark:bg-secondary dark:border-b-2 dark:border-primary"
+    >
+      <p className="flex items-center justify-center h-[20%] pt-14 text-5xl dark:text-primary">
         02. Skills
       </p>
       {/* the first line  */}
-      <div className="flex  h-[20%] justify-around  items-center  md:gap-24 ">
+      <div className="flex  h-[20%] justify-around  items-center  md:gap-24 md:w-[95%]  md:justify-between">
         <div className={larger_card}>
           <p className={p}>Bootstrap </p>
           <img
@@ -37,7 +40,7 @@ function Skills() {
         </div>
       </div>
       {/* the line two */}
-      <div className=" flex h-[20%] items-center justify-around gap-2 ">
+      <div className=" flex  h-[20%] items-center justify-around gap-2 md:w-[95%]  md:justify-around ">
         <div className={larger_card}>
           <p className={p}>TailwindCss</p>
           <img
@@ -64,7 +67,7 @@ function Skills() {
         </div>
       </div>
       {/* the line three  */}
-      <div className="flex justify-around items-center h-[20%] ">
+      <div className="flex justify-around items-center md:justify-evenly  md:w-[95%] h-[15%] ">
         <div className={larger_card}>
           <p className={p}>Responsive</p>
           <img
