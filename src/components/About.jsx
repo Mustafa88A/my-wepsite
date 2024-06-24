@@ -21,7 +21,7 @@ function About() {
             </div>
             <div className="SectionAbout">
               <div>
-                <p className="leading-[60px] md:w-8/12 dark:text-white">
+                <p className="text-[15px] leading-[60px] md:text-[27px] md:w-8/12 dark:text-white">
                   I am Mustafa I am a web developer excited, I live in Iraq,
                   born in 2000, and hold a bachelor’s degree in computer
                   technology.
