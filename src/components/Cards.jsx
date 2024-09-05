@@ -102,23 +102,37 @@ function Cards() {
           </a>
         </div>
         <div id="card" className={styleCard}>
-          <a className="flex  flex-col  gap-2 md:gap-6" href="" target="_blank">
+          <div className="flex  flex-col  gap-2 md:gap-6">
             <div className="icon">
               <img className="w-6" src={require("../img/folder.png")} />
               {/* <img src={require("../img/folder.png")} alt="" /> */}
             </div>
-            <h1>Name the project</h1>
+            <h1>mint project</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-              recusandae!
+              A website for booking with doctors and pharmacies and publishing
+              medical articles
             </p>
             <div className={language}>
-              <FaHtml5 className="w-7 h-7" />
+              {/* <FaHtml5 className="w-7 h-7" />
               <RiTailwindCssFill className="w-7 h-7" />
               <TbBrandJavascript className="w-7 h-7" />
-              <FaReact />
+              <FaReact /> */}
+              <a
+                href="https://github.com/mehdi22256/mint"
+                target="_blank"
+                // className="border-2 h-6 border-black "
+              >
+                mint server
+              </a>
+              <a
+                href="https://github.com/mehdi22256/mint-frontend"
+                target="_blank"
+                // className="border-2 h-6 border-black "
+              >
+                mint client
+              </a>
             </div>
-          </a>
+          </div>
         </div>
         <div id="card" className={styleCard}>
           <a className="flex  flex-col  gap-2 md:gap-6" href="" target="_blank">
