@@ -135,23 +135,34 @@ function Cards() {
           </div>
         </div>
         <div id="card" className={styleCard}>
-          <a className="flex  flex-col  gap-2 md:gap-6" href="" target="_blank">
+          <div className="flex  flex-col  gap-2 md:gap-6">
             <div className="icon">
               <img className="w-6" src={require("../img/folder.png")} />
               {/* <img src={require("../img/folder.png")} alt="" /> */}
             </div>
-            <h1>Name the project</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-              recusandae!
-            </p>
-            <div className={language}>
+            <h1>Blog Project </h1>
+            <p>WepSite for read blog and write personal and general article</p>
+            {
+              /* <div className={language}>
               <FaHtml5 className="w-7 h-7" />
               <RiTailwindCssFill className="w-7 h-7" />
               <TbBrandJavascript className="w-7 h-7" />
-              <FaReact className="w-7 h-7" />
-            </div>
-          </a>
+              <FaReact className="w-7 h-7" /> */
+              // </div>
+            }
+            <a
+              href="https://github.com/Mustafa88A/blog-backend"
+              target="_blank"
+            >
+              Blog server
+            </a>
+            <a
+              href="https://github.com/Mustafa88A/blog-frontend"
+              target="_blank"
+            >
+              Blog client
+            </a>
+          </div>
         </div>
       </div>
     </div>
