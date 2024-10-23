@@ -6,7 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const language =
-  "md:w-52  hidden md:block md:flex md:justify-between flex-wrap md:item-center dark:text-black ";
+  "md:w-52  hidden md:block md:flex md:justify-between flex-wrap md:item-center dark:text-black";
 const styleCard =
   "w-32 h-48 text-xs md:text-[18px] md:w-[25%] md:h-[41%] p-2   border-2 border-[#1f4c65] bg-[#f4cf48] dark:text-black dark:border-white pt-8 ";
 function Cards() {
@@ -142,26 +142,25 @@ function Cards() {
             </div>
             <h1>Blog Project </h1>
             <p>WepSite for read blog and write personal and general article</p>
-            {
-              /* <div className={language}>
-              <FaHtml5 className="w-7 h-7" />
+
+            <div className={language}>
+              {/* <FaHtml5 className="w-7 h-7" />
               <RiTailwindCssFill className="w-7 h-7" />
               <TbBrandJavascript className="w-7 h-7" />
-              <FaReact className="w-7 h-7" /> */
-              // </div>
-            }
-            <a
-              href="https://github.com/Mustafa88A/blog-backend"
-              target="_blank"
-            >
-              Blog server
-            </a>
-            <a
-              href="https://github.com/Mustafa88A/blog-frontend"
-              target="_blank"
-            >
-              Blog client
-            </a>
+              <FaReact className="w-7 h-7" />  */}
+              <a
+                href="https://github.com/Mustafa88A/blog-backend"
+                target="_blank"
+              >
+                Blog server
+              </a>
+              <a
+                href="https://github.com/Mustafa88A/blog-frontend"
+                target="_blank"
+              >
+                Blog client
+              </a>
+            </div>
           </div>
         </div>
       </div>
