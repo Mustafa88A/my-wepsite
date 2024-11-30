@@ -28,7 +28,7 @@ function Navbar() {
             menuOpen ? "block" : "hidden"
           } md:block`}
         >
-          <ul className="navbar-links flex flex-col gap-7  text-[18px] md:flex-row">
+          <ul className="navbar-links flex flex-col gap-7  text-[16px] md:flex-row">
             <li>
               <Link to="#About" smooth onClick={() => setMenuOpen(false)}>
                 01. About
