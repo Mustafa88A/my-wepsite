@@ -5,6 +5,7 @@ body {
 /* page one */
 
 .navbar-links {
+  background-color: #1f4c65;
   width: 70%;
   height: 70px;
   display: flex;
@@ -21,7 +22,7 @@ body {
   align-items: center;
 }
 
-.texts {
+/* .texts {
   width: 70%;
   height: 80%;
   display: flex;
@@ -29,7 +30,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-left: 8%;
-}
+} */
 
 .SectionAbout {
   width: 70%;
